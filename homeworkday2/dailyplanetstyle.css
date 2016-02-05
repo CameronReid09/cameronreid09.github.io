@@ -12,8 +12,8 @@ section, aside {
     float: left;
 }
 
-section {
-    width: 70%
+section, article {
+    width: 50%
 }
 aside {
     width: 20%;
