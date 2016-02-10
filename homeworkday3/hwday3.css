@@ -1,13 +1,22 @@
+head {
+    
+    background-color: dodgerblue;
+}
 nav {
     
-    background-color: blue;
-        color: aliceblue;
+    background-color: dodgerblue;
+    color: aliceblue;
     width: 1000px;
+    height: 150px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    text-decoration: none;
 
 }
-a {
+h1 {
     
-    color: aliceblue;
+    font-size: 50px;
+    padding-top: 30px;
 }
 #left-box {
     
@@ -16,6 +25,7 @@ a {
 section {
 
     width: 1000px;
+    padding-bottom: 10px;
 }
 td div{
     
@@ -27,6 +37,10 @@ td div{
 }
  #support {
     
-    background-color: beige;
+    background-color: antiquewhite;
      width: 1000px;
+}
+article {
+    
+    color: black;
 }
