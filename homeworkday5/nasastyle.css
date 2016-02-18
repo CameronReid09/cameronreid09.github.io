@@ -1,0 +1,63 @@
+html {
+    width: 1024px;
+    font-family: sans-serif;
+    margin: auto
+}
+h1 {
+    padding-top: 180px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 85px;
+    height: 450px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    background-image: url("http://www.unoosa.org/res/timeline/index_html/space-2.jpg");
+    color: #cccccc;
+    background-size: 100%;
+    width: 1025px;
+    height: 450px;
+    margin: auto;
+        
+    }
+h3 {
+    font-size: 20px;
+    text-decoration: bold;
+}
+div {
+    margin: auto;
+    height: 324px;
+    width: 290px;
+    float: left;
+    background-color: darkgrey;
+    text-align: left;
+}
+.social {
+    
+    padding: 20px;
+   
+}
+.office{ 
+
+    padding: 20px;
+    
+}
+.contact {
+        padding: 20px;
+
+}
+.form {
+    height: 50px;
+}
+.send{
+    border: solid black;
+    width: 80px;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: bold;
+    font-size: 18px;
+    text-align: center;
+    
+    
+}

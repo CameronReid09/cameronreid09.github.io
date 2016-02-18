@@ -13,7 +13,7 @@ header {
 }
 nav {
     
-    background-color: paleturquoise
+    background-color: paleturquoise;
 }
 td {
     height:150px;
@@ -21,12 +21,13 @@ td {
     
     
 }
-.links {
+aside {
     
     width: 300px;
     font-size: 19px;
     text-align: center;
     border: solid black;
-    float: 
+    margin: auto;
+    
     
 }
