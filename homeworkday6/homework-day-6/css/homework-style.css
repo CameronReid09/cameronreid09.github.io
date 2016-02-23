@@ -1,0 +1,73 @@
+html{
+    width: 700px;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+article {
+    width: 350px;
+    height: 310px;
+    float: left;
+    font-size: 13px;
+    background-color: beige;
+    margin-right: 0px;
+}
+article a {
+    float: right;
+}
+article img {
+    margin: 5px;
+    width: 340px;
+    height: auto;
+}
+aside {
+    width: 320px;
+    height: 90px;
+    float: right;
+    clear: right;
+    padding: 2px;
+    background-color: beige;
+    margin-bottom: 15px;
+    
+}
+aside img {
+    height: 80px;
+    width: 170px;
+    padding: 5px
+    
+}
+aside p {
+    width: 130px;
+    float: right;
+    clear: right;
+}
+aside h3 {
+    
+}
+p, li {
+    font-size: 13px;
+}
+td {
+    height: 120px;
+    width: 230px;
+}
+table {
+    width: 690px;
+    font-size: 13px;
+    margin: auto;
+    float: left;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+table a {
+    float: right;
+}
+td:nth-child(-n+2){
+    border-right: solid 1px black;
+}
+
+
