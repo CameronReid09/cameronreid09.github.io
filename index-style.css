@@ -1,7 +1,8 @@
-body{
+body {
     width: 1080px;
     margin: auto;
 }
+
 header {
     width: 90%;
     color: red;
@@ -9,10 +10,9 @@ header {
     font-style: bold;
     background-color: dodgerblue;
     padding: 10px;
-    
-}
-td {
-    height:150px;
-    margin: auto;
 }
 
+td {
+    height: 150px;
+    margin: auto;
+}
