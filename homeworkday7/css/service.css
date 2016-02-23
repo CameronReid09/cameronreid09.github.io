@@ -1,0 +1,47 @@
+main {
+    background-color:rebeccapurple;
+    width: 1200px;
+    
+}
+.small-box {
+    width: 300px;
+    padding: 40px;
+    margin: 10px;
+    
+    
+}
+.small-box h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.small-box p {
+    color: green;
+}
+#grow {
+    background: url('../img/featured-image-3.jpg');
+    background-repeat: no-repeat;
+    
+}
+#plant {
+    background: url('../img/featured-image-4.jpg');
+    background-repeat: no-repeat;
+    
+}
+#land {
+    background: url('../img/featured-image-5.jpg');
+    background-repeat: no-repeat;
+    width: 600px;
+    padding: 50px;
+    float: left;
+    margin-top: 10px;
+    
+}
+aside {
+    float: left;
+    
+}
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
