@@ -1,5 +1,7 @@
 body {
     font-family:'Roboto', sans-serif;
+    width: 1600px;
+    margin:auto;
 }
 
 .clear-fix:after {
@@ -8,11 +10,9 @@ body {
     clear: both;
 }
 .container {
-    width: 80%;
+    width: 1400px;
     margin: 0 auto;
 }
-
-/*Specific to each section*/
 header{
     height: 25px;
     padding: 10px 0px;
@@ -21,6 +21,7 @@ header{
 header h1 {
     font-size: 1.7em;
     float: left;
+    font-family: Yellowtail;
 }
 
 header nav {
@@ -30,6 +31,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: #000;
+    margin-left: 5px
 }
 
 header nav a:hover { 
@@ -37,25 +39,37 @@ header nav a:hover {
 }
 
 #hero {
-    background: url('http://www.placehold.it/1800x700');
-    padding: 250px 0;
+    background: url(http://www.buytolet.com/wp-content/uploads/2013/06/signing-pen-paper.jpg);
+    background-size: 1400px 700px;
     background-position: center;
     background-size: cover;
     text-align: center;
+    width: 1400px;
+    height: 650px;
+}
+#hero div {
+     color: grey;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%,rgba(0,0,0,0.8) 100%), url(../img/wine-bg.jpg);
+    background-repeat: no-repeat;
+    height: 650px
 }
 
 #hero h2 {
-   font-size: 6em; 
+   font-size: 5em; 
+    padding-top: 200px;
+    color: lightgray;
 }
 
 #hero p {
     margin: 15px 0 50px 0;
+    font-size: 25px;
+    color: white
 }
 
 #hero a {
     text-decoration: none;
-    color: #000;
-    border: 2px solid #000;
+    color: white;
+    border: 2px solid lightgrey;
     padding: 15px 50px;
 }
 
@@ -73,16 +87,16 @@ header nav a:hover {
 }
 
 #welcome .picture {
-    width: 38%;
+    width: 450px;
 }
 
 #welcome .picture img {
-    width: 100%;
+    width:350px;
 }
 
 #welcome .text {
     margin-left: 30px;
-    width: 55%;
+    width: 750px;
 }
 
 #welcome .text h3 {
@@ -93,3 +107,55 @@ header nav a:hover {
     margin-top: 10px;
     line-height: 25px;
 }
+#four {
+    background-color: lightsteelblue;
+    width: 1400px;
+    height: 600px;
+}
+#four div {
+    width: 300px;
+    height: 500px;
+    float: right;
+    text-align: center;
+    margin: auto;
+    margin-right: 40px;
+    padding-top: 100px
+}
+#two {
+    width: 100%;
+    height: 350px;
+}
+#two div {
+    width: 400px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 170px;
+}
+#two div:first-child {
+    margin-left: 90px;
+}
+#end {
+    background-image: url(http://placehold.it/1400x300);
+    width: 1400px;
+    height: 300px;
+    background-color: peachpuff;
+    margin: auto;
+    text-align: center;
+}
+#end a {
+    float: left;
+    padding: 20px 40px 20px 40px;
+    margin: 20px;
+    text-align: center;
+    border: solid black 1px;
+    }
+
+
+
+
+
+
+
+
+
+
