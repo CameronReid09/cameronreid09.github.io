@@ -49,24 +49,8 @@
     width: 750px;
     height: 530px;
     float: left;
-    margin-top: 10px
+    margin-top: 10px;
 }
-
-#big-text {
-    width: 750px;
-    height: 530px;
-    position: relative;
-    background: black;
-    opacity: .5;
-}
-
-.house {
-    padding-top: 120px;
-    padding-left: 40px;
-    width: 650px;
-    height: 350px;
-}
-
 #land h1 {
     color: #fff;
     text-transform: uppercase;
@@ -86,15 +70,33 @@
     font-size: 15px;
     line-height: 200%;
 }
-
+.house {
+    padding-top: 120px;
+    padding-left: 40px;
+    width: 710px;
+    height: 410px;
+    position: relative;
+    background: black;
+    opacity: .5;
+}
 #more a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: white;
     background-color: dimgrey;
     margin-right: 10px;
     padding: 10px;
     float: left;
+}
+.solid #solid2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: dimgrey;
+    margin-right: 10px;
+    padding: 0px;
+    float: left;
+    border: px solid white;
 }
 
 #our a {
@@ -135,19 +137,19 @@ aside {
 
 #text p {
     padding: 20px;
-    font-size: 18px
+    font-size: 18px;
 }
 
 #text h1 {
     padding: 20px;
-    font-size: 35px
+    font-size: 35px;
 }
 
 #text h3 {
     padding: 10px;
     padding-bottom: 30px;
     font-family: serif;
-    font-size: 18px
+    font-size: 18px;
 }
 
 #text a {
