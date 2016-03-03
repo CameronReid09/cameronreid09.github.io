@@ -1,6 +1,6 @@
 body {
     font-family:'Roboto', sans-serif;
-    width: 1600px;
+    width: 100%;
     margin:auto;
 }
 
@@ -14,24 +14,25 @@ body {
     margin: 0 auto;
 }
 header{
-    height: 25px;
+    height: 35px;
     padding: 10px 0px;
 }
 
 header h1 {
-    font-size: 1.7em;
+    font-size: 2em;
     float: left;
     font-family: Yellowtail;
 }
 
 header nav {
     float: right;
+    font-size: 1.5em
 }
 
 header nav a {
     text-decoration: none;
     color: #000;
-    margin-left: 5px
+    margin-left: 20px;
 }
 
 header nav a:hover { 
