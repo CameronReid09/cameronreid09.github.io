@@ -121,11 +121,16 @@ header nav a:hover {
     margin: auto;
     margin-right: 40px;
     padding-top: 100px;
-    line-height: 1.9
+    line-height: 1.9;
 }
 #four div img{
     width: 250px;
     height: 200px;
+}
+#four div h1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 #two {
     width: 100%;
