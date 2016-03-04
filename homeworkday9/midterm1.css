@@ -109,7 +109,7 @@ header nav a:hover {
     line-height: 25px;
 }
 #four {
-    background-color: floralwhite;
+    background-color:floralwhite;
     width: 1400px;
     height: 600px;
 }
@@ -120,7 +120,8 @@ header nav a:hover {
     text-align: center;
     margin: auto;
     margin-right: 40px;
-    padding-top: 100px
+    padding-top: 100px;
+    line-height: 1.9
 }
 #four div img{
     width: 250px;
@@ -138,7 +139,7 @@ header nav a:hover {
 }
 #two div img {
     width:400px;
-    height:200px;
+    height:220px;
 }
 #two div:first-child {
     margin-left: 90px;
