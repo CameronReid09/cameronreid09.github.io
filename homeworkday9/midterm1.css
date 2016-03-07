@@ -18,10 +18,12 @@ header{
     padding: 10px 0px;
 }
 
-header h1 {
+header h1 a {
     font-size: 2em;
     float: left;
     font-family: Yellowtail;
+    text-decoration: none;
+    color: blue;
 }
 
 header nav {
@@ -31,7 +33,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #000;
+    color: #4d4d4d;
     margin-left: 20px;
 }
 
@@ -102,11 +104,13 @@ header nav a:hover {
 
 #welcome .text h3 {
     font-size: 1.7em;
+    color: #4d4d4d;
 }
 
 #welcome .text p {
     margin-top: 10px;
     line-height: 25px;
+      color: #4d4d4d;
 }
 #four {
     background-color:floralwhite;
@@ -127,10 +131,10 @@ header nav a:hover {
     width: 250px;
     height: 200px;
 }
-#four div h1 {
+#four div h1 a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 #two {
     width: 100%;
@@ -149,24 +153,72 @@ header nav a:hover {
 #two div:first-child {
     margin-left: 90px;
 }
-#end {
-    background-image: url(http://placehold.it/1400x300);
-    width: 1400px;
-    height: 300px;
-    background-color: peachpuff;
-    margin: auto;
-    text-align: center;
+#two h5 {
+      color: blue;
+    padding-top: 10px;
 }
-#end a {
+#end {
+    width: 1400px;
+    height: 200px;
+    background-color: #3b5998;
+    margin: auto;
+}
+#end div {
+    color: #a6a6a6;
     float: left;
-    padding: 20px 40px 20px 40px;
-    margin: 20px;
-    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+#end div .head {
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+#end div a {
+    text-decoration: none;
+    color: #a6a6a6;
+}
+#end #login {
+    margin-top: 80px;
+}
+#end #register {
+    margin-top: 80px
+}
+#end #register a {
+    margin-left: 210px;
+    padding: 15px;
     border: solid black 1px;
+    border-radius: .5em;
+    background-color: black;
+    color:aliceblue;
+}
+#end #login a {
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: .5em;
+    color: aliceblue;
+    background-color: black;
+}
+#bottom a {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
     }
-
-
-
+#bottom {
+    background-color: #4d4d4d;
+    height: 60px;
+    width: 1400px;
+    margin: auto;
+}
+#bottom img {
+    width: 40px;
+    height: 40px;
+}
 
 
 
