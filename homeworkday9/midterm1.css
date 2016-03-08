@@ -1,7 +1,7 @@
 body {
     font-family:'Roboto', sans-serif;
     width: 100%;
-    margin:auto;
+    margin: auto;
 }
 
 .clear-fix:after {
@@ -183,7 +183,7 @@ header nav a:hover {
     margin-top: 80px;
 }
 #end #register {
-    margin-top: 80px
+    margin-top: 80px;
 }
 #end #register a {
     margin-left: 210px;
