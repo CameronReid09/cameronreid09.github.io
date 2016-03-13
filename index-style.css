@@ -1,18 +1,128 @@
 body {
     width: 1080px;
     margin: auto;
+    background-color: black
 }
-
-header {
-    width: 90%;
+header h1 {
     color: red;
-    font-size: 25px;
-    font-style: bold;
-    background-color: dodgerblue;
+    font-family: sans-serif;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+#tiles section {
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    
+}
+#tiles section:nth-child(1) {
+    background: url(pics/hw1.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+#tiles section:nth-child(2) {
+    background: url(pics/hw2.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+#tiles section:nth-child(3) {
+    background: url(pics/hw3.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(4) {
+    background: url(pics/hw4.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(5) {
+    background: url(pics/hw5.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(6) {
+    background: url(pics/hw6.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(7) {
+    background: url(pics/hw7.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(8) {
+    background: url(pics/hw8.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}#tiles section:nth-child(9) {
+    background: url(pics/hw9.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+#tiles section:nth-child(10) {
+    background: url(pics/hw10.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+#tiles div {
+     color: grey;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../img/wine-bg.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width:300px;
+}
+#tiles div a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    border: 2px solid lightgrey;
     padding: 10px;
+    margin-top: 20px;
 }
 
-td {
-    height: 150px;
-    margin: auto;
+#tiles a:hover {
+    background: #000;
+    color: #fff;
 }
