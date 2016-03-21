@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+#hero {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 600px;
+    color: aliceblue;
+}
+#top {
+    height: 300px;
+    width: auto;
+    background-color: rebeccapurple;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ #top h1 {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 2em;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+#center{
+    width: auto;
+    height: 300px;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+#center h1 {
+     text-align: center;
+    padding-top: 140px;
+    font-size: 2em;
+}
+.clearfix:after {
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+#floats {
+    width: 80%;
+    margin:auto;
+}
+#bottom {
+    height: 300px;
+}
+ .total {
+    width: 12.68%;
+    height: 300px;
+    float: left;
+    background-color:  mediumaquamarine;
+    text-align: center;
+    padding: 0% 6.16%;
+    font-size: .8em;
+}
+.total h3 {
+    padding: 0% 2%;
+}
+ .color {
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 10%
+}
+#a {
+    background-color:aqua;
+}
+#b {
+    background-color: chocolate;
+}
+#c {
+    background-color: chartreuse;
+}
+#d {
+    background-color: azure;
+}
+@media (min-width: 991px) and (max-width: 1920px) {
+    body {
+        width: auto;
+    }
+}
+@media screen and (max-width: 990px) {
+    body {
+        width: auto;
+        height: 1200px;
+    }
+    .box {
+        height: 50%;
+        width: 300px;
+        float: left;
+        clear: both;
+        
+        
+    }
+     .total {
+        padding: 0% 15%;
+        width: 20%;
+        float: left;
+    }
+    
+}
+
+
+
+
+
+

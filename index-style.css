@@ -111,6 +111,15 @@ header h1 {
     width: 300px;
     height: 300px;
 }
+#tiles section:nth-child(11) {
+    background: url(pics/hw10.PNG);
+    background-size: 300px 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
 #tiles div:hover {
      color: grey;
     background: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%,rgba(0,0,0,0.4) 100%), url(../img/wine-bg.jpg);
