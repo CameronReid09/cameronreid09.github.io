@@ -94,13 +94,21 @@ body {
         width: auto;
         height: 1200px;
     }
+    #hero {
+        height: 300px;
+    }
+    #top {
+        width: 45%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    #center {
+        width: 45%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
     .box {
-        height: 50%;
-        width: 300px;
         float: left;
-        clear: both;
-        
-        
     }
      .total {
         padding: 0% 15%;
