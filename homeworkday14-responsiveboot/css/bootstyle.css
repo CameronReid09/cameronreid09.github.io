@@ -1,0 +1,35 @@
+#image h1 {
+    font-size: 1.8em;
+}
+#image h3 {
+    font-size: 1.3em;
+    padding-bottom: 5%;
+}
+#image a {
+    background-color: #4d4d4d;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.15em;
+}
+#links {
+    background-color: #4d4d4d;
+    color: aliceblue;
+    margin-top: 5%;
+}
+#links h2 {
+    font-size: 1.4em;
+}
+#links ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: .8em;
+}
+#links li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#links li {
+    margin-top: 9%;
+    text-align: inherit;
+}
