@@ -1,228 +1,80 @@
-body {
-    font-family:'Roboto', sans-serif;
-    width: 100%;
-    margin: auto;
-}
+<!DOCTYPE html>
+<html>
 
-.clear-fix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-.container {
-    width: 1400px;
-    margin: 0 auto;
-}
-header{
-    height: 35px;
-    padding: 10px 0px;
-}
+<head>
+    <title>Homework 14</title>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstyle.css" />
+</head>
 
-header h1 a {
-    font-size: 2em;
-    float: left;
-    font-family: Yellowtail;
-    text-decoration: none;
-    color: blue;
-}
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <section class="container-fluid" id="image">
+            <div class="row">
+                <div class="col-md-9 col-sm12">
+                    <div class="caption">
+                        <img class="img-responsive large" src ="bg.jpg">
+                        <h1>Tomorrow's Technology, yesterdays insights</h1>
+                        <h3>Some times what the tech world comes up with has already been tried ans rejected and really doesnt need to be resurrected- like the taylorist view...</h3>
+                        <a href="#">TECHNOLOGY</a>
+                    </div>
+                </div>
+                <div class="visible-lg">
+                <div class="col-md-3">
+                    <h2>TOP STORIES</h2>
+                    <h4>
+                        <ul>
+                              <li>Stanford researchers make artificial skin tha senses touch</li>
+                                <li>3 new ways to wear your favorite chambray shirt</li>
+                                <li>Where to buy your next    big thing</li>
+                                <li>Chukkas tat offer casual, comfortable style</li>
+                        </ul>
+                    </h4>
 
-header nav {
-    float: right;
-    font-size: 1.5em;
-}
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="links">
+            <div class="container visible-sm visible-xs">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h2>Useful Links</h2>
+                        <h4><ul>
+                            <li><a>About</a></li>
+                            <li><a>Jobs</a></li>
+                            <li><a>Team</a></li>
+                            <li><a>Advertise</a></li>
+                            <li><a>Terms</a></li>
+                            </ul>
+                        </h4>
+                    </div>
+                    <div class="col-xs-6">
 
-header nav a {
-    text-decoration: none;
-    color: #4d4d4d;
-    margin-left: 20px;
-}
-
-header nav a:hover { 
-    text-decoration: underline;
-}
-
-#hero {
-    background: url(http://www.buytolet.com/wp-content/uploads/2013/06/signing-pen-paper.jpg);
-    background-size: 1400px 650px;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    width: 1400px;
-    height: 650px;
-}
-#hero div {
-     color: grey;
-    background: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%,rgba(0,0,0,0.8) 100%), url(../img/wine-bg.jpg);
-    background-repeat: no-repeat;
-    height: 650px;
-}
-
-#hero h2 {
-   font-size: 5em; 
-    padding-top: 200px;
-    color: lightgray;
-}
-
-#hero p {
-    margin: 15px 0 50px 0;
-    font-size: 25px;
-    color: white
-}
-
-#hero a {
-    text-decoration: none;
-    color: white;
-    border: 2px solid lightgrey;
-    padding: 15px 50px;
-}
-
-#hero a:hover {
-    background: #000;
-    color: #fff;
-}
-
-#welcome {
-    padding: 50px 25px;
-}
-
-#welcome div {
-    float: left;
-}
-
-#welcome .picture {
-    width: 450px;
-}
-
-#welcome .picture img {
-    width:350px;
-}
-
-#welcome .text {
-    margin-left: 30px;
-    width: 750px;
-}
-
-#welcome .text h3 {
-    font-size: 1.7em;
-    color: #4d4d4d;
-}
-
-#welcome .text p {
-    margin-top: 10px;
-    line-height: 25px;
-      color: #4d4d4d;
-}
-#four {
-    background-color:floralwhite;
-    width: 1400px;
-    height: 600px;
-}
-#four div {
-    width: 300px;
-    height: 500px;
-    float: right;
-    text-align: center;
-    margin: auto;
-    margin-right: 40px;
-    padding-top: 100px;
-    line-height: 1.9;
-}
-#four div img{
-    width: 250px;
-    height: 200px;
-}
-#four div h1 a {
-    font-size: 20px;
-    text-decoration: none;
-    color: blue;
-}
-#two {
-    width: 100%;
-    height: 350px;
-}
-#two div {
-    width: 400px;
-    float: right;
-    margin-top: 50px;
-    margin-right: 170px;
-}
-#two div img {
-    width:400px;
-    height:220px;
-}
-#two div:first-child {
-    margin-left: 90px;
-}
-#two h5 {
-      color: blue;
-    padding-top: 10px;
-}
-#end {
-    width: 1400px;
-    height: 200px;
-    background-color: #3b5998;
-    margin: auto;
-}
-#end div {
-    color: #a6a6a6;
-    float: left;
-    margin-left: 100px;
-    margin-top: 40px;
-    line-height: 1.5;
-    font-size: 15px;
-}
-#end div .head {
-    margin-bottom: 10px;
-    font-weight: 900;
-}
-#end div a {
-    text-decoration: none;
-    color: #a6a6a6;
-}
-#end #login {
-    margin-top: 80px;
-}
-#end #register {
-    margin-top: 80px;
-}
-#end #register a {
-    margin-left: 210px;
-    padding: 15px;
-    border: solid black 1px;
-    border-radius: .5em;
-    background-color: black;
-    color:aliceblue;
-}
-#end #login a {
-    padding: 15px;
-    border: solid black 1px;
-    border-radius: .5em;
-    color: aliceblue;
-    background-color: black;
-}
-#bottom a {
-    height: 20px;
-    width: 20px;
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    text-align: center;
-    }
-#bottom {
-    background-color: #4d4d4d;
-    height: 60px;
-    width: 1400px;
-    margin: auto;
-}
-#bottom img {
-    width: 40px;
-    height: 40px;
-}
+                        <h2>Social Media</h2>
+                        <h4><ul>
+                            <li><a>Facebook <img src="#"></a></li>
+                            <li><a>Instagram <img src="#">      </a></li>
+                            <li><a>Twitter<img src="#"></a></li>
+                            </ul>
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
 
+    </main>
+    <footer></footer>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+</body>
 
-
+</html>
