@@ -1,0 +1,23 @@
+body {
+    margin-top: 5%
+    
+}
+main {
+    width: 100%;
+    background-image: url(/pics/austinsoco.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navbar {
+    
+}
+#hero {
+    margin-top: 0%;
+    background-color:;
+    
+    
+}
+#tiles .small {
+    width: 300px;
+    height: 300px
+}
