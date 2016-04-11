@@ -2,7 +2,7 @@
 body {
     background-color: black;
     font-family: sans-serif;
-    width: 80%;
+    width: 100%;
     margin: auto;
     color: aliceblue;
 }
@@ -10,7 +10,7 @@ body {
     height: 40px;
 }
 #hero {
-    width: 100%;
+    width: 80%;
     height: 800px;
     margin-top: 50px;
     background: url(/pics/austinskyline.jpg);
@@ -24,8 +24,11 @@ body {
 #img {
     color: white;
     background: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%,rgba(0,0,0,0.4) 100%);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    margin: auto;
 }
 #tiles .small {
     margin-bottom: 5%;
@@ -34,18 +37,15 @@ body {
     padding: 0 auto;
 }
 #end {
+    width: 80%;
     background-color: #3b5998;
-    height: 200px;
-    margin: auto;
-    width: 100%;
 }
 #end div {
     color: #a6a6a6;
-    float: left;
-    font-size: 15px;
+    font-size: 1em;
     line-height: 1.5;
-    margin-left: 100px;
-    margin-top: 40px;
+    padding-top: 5px;
+   
 }
 #end div .head {
     font-weight: 900;
@@ -65,10 +65,10 @@ body {
     width: 20px;
 }
 #bottom {
-    background-color: #4d4d4d;
+    width: 80%;
+    margin:auto;
     height: 60px;
-    margin: auto;
-    width: 100%;
+    background-color: #4d4d4d;
 }
 #bottom img {
     height: 40px;
