@@ -1,10 +1,9 @@
 
 body {
-    background-color: black;
     font-family: sans-serif;
     width: 100%;
     margin: auto;
-    color: aliceblue;
+    color: black
 }
 .navbar {
     height: 40px;
@@ -45,10 +44,23 @@ body {
     height: 800px;
     margin: auto;
 }
+.works {
+    width: 80%;
+    background-color: bisque;
+    text-align: center;
+    margin:auto;
+
+}
 .works h2 {
     font-size: 2em;
     text-align: center;
+    background-color: bisque;
     
+}
+#tiles {
+        background-color: bisque;
+    width: 80%;
+
 }
 #tiles .small {
     margin-bottom: 5%;
