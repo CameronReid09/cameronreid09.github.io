@@ -60,9 +60,11 @@ body {
 #tiles {
         background-color: bisque;
     width: 80%;
+    margin:auto;
 
 }
 #tiles .small {
+    margin: auto;
     margin-bottom: 5%;
     width: 380px;
     height: 280px;
@@ -71,6 +73,7 @@ body {
 #floats .small {
     width: 380px;
     height: 280px;
+    margin: auto;
 }
 #end {
     width: 80%;
